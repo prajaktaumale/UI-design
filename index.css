@@ -1,0 +1,203 @@
+body{
+    background-color: cornsilk;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.head{
+    background-color: white;
+    padding: 16px;
+}
+.navbar li{
+    list-style-type: none;
+    float: left;
+    margin: 9px;
+    font-size: 20px;
+    position: relative;
+    bottom: 45px;
+    padding: 12px;
+}
+.navbar li:hover{
+    background-color: black;
+}
+.navbar a{
+    text-decoration: none;
+    color: blue;
+}
+.logo{
+    float: left;
+    font-size: 30px;
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+}
+.logo span{
+    color: black;
+}
+.login{
+    position: relative;
+    left: 50px;
+}
+.login li{
+    list-style-type: none;
+    float: left;
+    margin: 13px ;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    left: 350px;
+}
+.login a{
+    text-decoration: none;
+}
+.login .log{
+    background-color: blue;
+    padding: 10px;
+    position:relative;
+    bottom: 40px;
+}
+.login .log:hover{
+    background-color: rgb(108, 108, 146);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.login .sign{
+    background-color: blue;
+    padding: 10px;
+    position:relative;
+    bottom: 40px;
+}
+.login .sign:hover{
+    background-color: rgb(108, 108, 146);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.main-menu{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    right: -20px;
+    bottom: 30px;
+}
+.main-menu .btn{
+    padding: 10px;
+    border-radius: 5px;
+    color: blue;
+    border: 2px solid blue;
+    background-color: white;
+    cursor: pointer;
+}
+.main-menu .btn:hover{
+    background-color: blue;
+    color: white;
+}
+.main-menu .btn1{
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    border: 2px solid red;
+    background-color: white;
+    cursor: pointer;
+}
+.main-menu .btn1:hover{
+    background-color: red;
+    color: white;
+}
+.container-box{
+    width:90%;
+    background-color: white;
+    margin: 50px;
+    height: 90% ;
+    position: relative;
+    bottom: 40px;
+ }
+ .container-box h1{
+     margin: 20px;
+     position: relative;
+     top: 10px;
+     color: blueviolet;
+     text-decoration: underline;
+ }
+ .list li{
+     font-weight: bold;
+     margin-left: 10px;
+ }
+ .container-box .image{
+     margin:10px;
+     position: relative;
+     left: 10px;
+     width: 40%;
+     height: 50%;
+ }
+.main h2{
+    font-size: 22px;
+    margin: 10px;
+    font-weight: bolder;
+}
+.main table{
+    margin: 20px;
+    position: relative;
+    bottom: 10px;
+}
+.main table td{
+    font-weight: 600;
+}
+.bottom .icon{
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+.bottom .icon li {
+    list-style-type: none;
+    margin: 9px;
+    float: left;
+    font-size: 17px;
+    position: relative;
+    bottom: 20px;
+    color: blue;
+}
+.bottom .icon1{
+    display: flex;
+    justify-content: center;
+}
+.bottom .icon1 li{
+    list-style-type: none;
+    float: left;
+    margin: 9px;
+    font-size: 17px;
+    position: relative;
+    bottom: 40px;
+}
+.bottom a{
+    text-decoration: none;
+}
+.icon .line1{
+    border-left: 2px solid grey;
+    position: relative;
+    bottom: 15px;
+    height: 30px;
+}
+.icon li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.icon1 li:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.icon1 .nextline1{
+    border-left: 2px solid grey;
+    position: relative;
+    bottom: 35px;
+    height: 30px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 20px;
+    font-size: 17px;
+}
